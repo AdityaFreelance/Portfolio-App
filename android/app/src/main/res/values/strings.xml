@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AdityaPortfolio</string>
+    <string name="title_activity_main">AdityaPortfolio</string>
+    <string name="package_name">com.adityafreelance.portfolio</string>
+    <string name="custom_url_scheme">com.adityafreelance.portfolio</string>
+</resources>

@@ -6,11 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Welcome to the portfolio of Aditya Kumar Singh, a skilled Software Engineer, React Developer, HTML Developer, Front End Developer, and UI Developer. Specializing in Figma to HTML, responsive web design, web optimization, API integration, and creating beautiful user interfaces.">
+        content="Welcome to the portfolio of Aditya Kumar Singh, a skilled Software Engineer, React Developer, HTML Developer, Front End Developer, and UI Developer based in India. Specializing in Figma to HTML, responsive web design, web optimization, API integration, and creating beautiful user interfaces.">
     <meta name="keywords"
-        content="HTML Developer, Front End Developer, UI Developer, Software Engineer, React Developer, Figma to HTML, Web Developer, Portfolio, Responsive Web Design, Web Optimization, API Integration">
+        content="HTML Developer in India, Front End Developer in India, UI Developer in India, Software Engineer in India, React Developer in India, Figma to HTML, Web Developer in India, Portfolio, Responsive Web Design, Web Optimization, API Integration">
     <!-- Title of the page -->
     <title>Aditya Kumar Singh | Software Engineer, React, HTML, UI Developer</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -36,6 +40,76 @@
           "sameAs": [
             "https://www.linkedin.com/in/aditya-html22/",
             "https://github.com/AdityaFreelance"
+          ],
+          "alumniOf": [
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Dr. A.P.J. Abdul Kalam Technical University",
+              "sameAs": "https://aktu.ac.in/"
+            }
+          ],
+          "knowsAbout": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Bootstrap",
+            "Figma to HTML",
+            "Web Development",
+            "UI/UX"
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://adityafreelance.github.io/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "About",
+              "item": "https://adityafreelance.github.io/#about"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Skills",
+              "item": "https://adityafreelance.github.io/#skills"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Services",
+              "item": "https://adityafreelance.github.io/#services"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Experience",
+              "item": "https://adityafreelance.github.io/#experience"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Projects",
+              "item": "https://adityafreelance.github.io/#projects"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "FAQ",
+              "item": "https://adityafreelance.github.io/#faq"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "Contact",
+              "item": "https://adityafreelance.github.io/#contact"
+            }
           ]
         }
       ]
@@ -59,11 +133,11 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TVRPDW970Z"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'G-TVRPDW970Z');
+        gtag('config', 'G-TVRPDW970Z');
     </script>
 
     <!-- External stylesheets for Bootstrap and AOS -->
@@ -86,8 +160,9 @@
     <header class="navbar-dark bg-dark">
         <div class="container">
             <nav class="navbar navbar-expand-lg sticky-top">
-                <a class="navbar-brand" href="#"></a>
-                <!-- Navbar toggler for mobile devices -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="Logo" class="img-fluid">
+                </a> <!-- Navbar toggler for mobile devices -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -110,7 +185,7 @@
     </section>
 
     <!-- Main content of the page -->
-    <main>
+    <main id="main-content">
         <!-- About Me section -->
         <section id="about">
             <div class="container">
@@ -121,7 +196,8 @@
                         <div id="about-button-container"></div>
                     </div>
                     <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
-                        <img id="about-image" src="" alt="A headshot of Aditya Kumar Singh, a smiling man with short black hair."
+                        <img id="about-image" src=""
+                            alt="A headshot of Aditya Kumar Singh, a smiling man with short black hair."
                             class="img-fluid about-image">
                     </div>
                 </div>
@@ -165,7 +241,7 @@
         <section id="experience" class="mb-0">
             <div class="container">
                 <h2 id="experience-title" class="text-center mb-4" data-aos="fade-up" data-aos-duration="1000"></h2>
-                <p id="experience-summary" class="text-center mb-4" ></p>
+                <p id="experience-summary" class="text-center mb-4"></p>
                 <div id="experience-container">
                     <!-- Experience items will be loaded here dynamically -->
                 </div>

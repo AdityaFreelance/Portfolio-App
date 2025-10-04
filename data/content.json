@@ -46,7 +46,7 @@
   "about": {
     "_comment": "About Me section content.",
     "title": "About Me",
-    "text": "A passionate and proficient Software Engineer and HTML Developer with a strong foundation in front-end technologies, including HTML, CSS, Bootstrap, and JavaScript. As a Front End Developer and UI Developer, I specialize in creating responsive, accessible, and optimized web applications. With expertise in Figma to HTML, PSD to HTML, and AI to HTML conversions, I excel at transforming design requirements into high-quality, user-friendly interfaces. My experience includes implementing email marketing campaigns and ensuring ADA compliance. I am familiar with modern tools and frameworks like Figma, jQuery, and Mailchimp, and I leverage Version Control with Git for efficient collaboration. I am always eager to learn and adapt to new technologies to drive innovation and efficiency.",
+    "text": "A passionate and proficient Software Engineer and HTML Developer based in India, with a strong foundation in <a href=\"#skills\">front-end technologies</a>, including HTML, CSS, Bootstrap, and JavaScript. As a Front End Developer and UI Developer, I specialize in creating <a href=\"#services\">responsive, accessible, and optimized web applications</a>. With expertise in <a href=\"#services\">Figma to HTML, PSD to HTML, and AI to HTML conversions</a>, I excel at transforming design requirements into high-quality, user-friendly interfaces. My experience includes implementing <a href=\"#services\">email marketing campaigns</a> and ensuring <a href=\"#services\">ADA compliance</a>. I am familiar with modern tools and frameworks like Figma, jQuery, and Mailchimp, and I leverage Version Control with Git for efficient collaboration. I am always eager to learn and adapt to new technologies to drive innovation and efficiency.",
     "image": "images/Profile1.jpg",
     "resume": {
       "button_text": "Download CV",
@@ -56,7 +56,7 @@
   "skills": {
     "_comment": "Skills section content.",
     "title": "My Skills",
-    "skills_summary": "With a strong foundation in front-end technologies, I am proficient in HTML, CSS, Scss, and Bootstrap, and have experience with JavaScript and jQuery. I am also adept at Figma to HTML conversions, ensuring web accessibility through ADA compliance, and delivering scalable and maintainable code for cross-browser compatibility.",
+    "skills_summary": "With a strong foundation in front-end technologies, I am proficient in HTML, CSS, Scss, and Bootstrap, and have experience with JavaScript and jQuery. I am also adept at <a href=\"#services\">Figma to HTML conversions</a>, ensuring <a href=\"#services\">web accessibility through ADA compliance</a>, and delivering scalable and maintainable code for cross-browser compatibility.",
     "proficient_technologies": [
       "HTML",
       "CSS",
@@ -151,7 +151,7 @@
   "experience": {
     "_comment": "Experience section content.",
     "title": "Experience",
-    "summary": "With a solid background as an HTML Developer, Front End Developer, and UI Developer, I have a proven track record of developing and maintaining web pages and applications. My experience spans across various companies, where I have honed my skills in front-end technologies. I have collaborated effectively with cross-functional teams, including React, WordPress, and Shopify developers, providing high-quality HTML and SCSS to build modern and responsive websites.",
+    "summary": "With a solid background as an <a href=\"#skills\">HTML Developer, Front End Developer, and UI Developer</a>, I have a proven track record of developing and maintaining web pages and applications. My experience spans across various companies, where I have honed my skills in front-end technologies. I have collaborated effectively with cross-functional teams, including <a href=\"#skills\">React, WordPress, and Shopify developers</a>, providing high-quality HTML and SCSS to build modern and responsive websites.",
     "jobs": [
       {
         "company": "OneTouchGrade",
@@ -214,7 +214,7 @@
   "projects": {
     "_comment": "Projects section content. The actual project data is in projects.json.",
     "title": "Projects",
-    "projects_summary": "Throughout my career, I have had the opportunity to work on a variety of web development projects, ranging from e-commerce platforms to informational websites and lead generation tools. These projects have allowed me to hone my skills in HTML, CSS, and JavaScript, and have given me experience in building and deploying high-quality web applications that deliver tangible results. You can see some of my work below.",
+    "projects_summary": "Throughout my career, I have had the opportunity to work on a variety of web development projects, ranging from e-commerce platforms to informational websites and lead generation tools. These projects have allowed me to hone my skills in <a href=\"#skills\">HTML, CSS, and JavaScript</a>, and have given me experience in building and deploying <a href=\"#projects\">high-quality web applications</a> that deliver tangible results. You can see some of my work below.",
     "tabs": [
       {
         "id": "all",

@@ -22,7 +22,7 @@ function populateContent(data) {
     // About
     if (data.about) {
         document.getElementById('about-title').textContent = data.about.title;
-        document.getElementById('about-text').textContent = data.about.text;
+        document.getElementById('about-text').innerHTML = data.about.text;
         document.getElementById('about-image').src = data.about.image;
 
         if (data.about.resume) {
@@ -40,7 +40,7 @@ function populateContent(data) {
     if (data.skills) {
         document.getElementById('skills-title').textContent = data.skills.title;
         if (data.skills.skills_summary) {
-            document.getElementById('skills-summary').textContent = data.skills.skills_summary;
+            document.getElementById('skills-summary').innerHTML = data.skills.skills_summary;
         }
         
         const proficientTechList = document.getElementById('proficient-tech-list');
@@ -72,7 +72,7 @@ function populateContent(data) {
     if (data.services) {
         document.getElementById('services-title').textContent = data.services.title;
         if (data.services.services_summary) {
-            document.getElementById('services-summary').textContent = data.services.services_summary;
+            document.getElementById('services-summary').innerHTML = data.services.services_summary;
         }
         const servicesContainer = document.getElementById('services-container');
         servicesContainer.innerHTML = '';
@@ -95,7 +95,7 @@ function populateContent(data) {
     if (data.experience) {
         document.getElementById('experience-title').textContent = data.experience.title;
         if (data.experience.summary) {
-            document.getElementById('experience-summary').textContent = data.experience.summary;
+            document.getElementById('experience-summary').innerHTML = data.experience.summary;
         }
         const experienceContainer = document.getElementById('experience-container');
         experienceContainer.innerHTML = '';
@@ -118,7 +118,7 @@ function populateContent(data) {
     if (data.projects) {
         document.getElementById('projects-title').textContent = data.projects.title;
         if (data.projects.projects_summary) {
-            document.getElementById('projects-summary').textContent = data.projects.projects_summary;
+            document.getElementById('projects-summary').innerHTML = data.projects.projects_summary;
         }
         const projectTabs = document.getElementById('projectTabs');
         projectTabs.innerHTML = '';
@@ -139,7 +139,7 @@ function populateContent(data) {
     if (data.contact) {
         document.getElementById('contact-title').textContent = data.contact.title;
         if (data.contact.contact_summary) {
-            document.getElementById('contact-summary').textContent = data.contact.contact_summary;
+            document.getElementById('contact-summary').innerHTML = data.contact.contact_summary;
         }
         document.getElementById('submit-button').textContent = data.contact.form.submit_button;
     }
@@ -223,7 +223,7 @@ function populateProjects(projectsData) {
             const projectCard = `
                 <div class="col-md-4 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="card h-100">
-                        <img src="${project.image}" class="card-img-top project-logo" alt="Logo for ${project.title}">
+                        <img src="${project.image}" class="card-img-top project-logo" alt="${project.title} - ${project.description}">
                         <div class="card-body d-flex flex-column">
                             <h3 class="card-title">${project.title}</h3>
                             <p class="card-text flex-grow-1">${project.description}</p>
@@ -277,7 +277,7 @@ function populateProjects(projectsData) {
 
 function populateFAQ(faqData) {
     document.getElementById('faq-title').textContent = faqData.title;
-    document.getElementById('faq-summary').textContent = faqData.summary;
+    document.getElementById('faq-summary').innerHTML = faqData.summary;
     const faqAccordion = document.getElementById('faqAccordion');
     faqAccordion.innerHTML = '';
     faqData.faqs.forEach((faq, index) => {
